@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cairo !important;
+    background-color: #f2f2f2;
+    color: #48818c;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.wrapper__banner {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 1rem!important;
+    padding: 1rem!important;
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+.wrapper__banner img {
+    height: 94px;
+    width: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.wrapper__container {
+    width: auto;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.container__banner {
+    margin-bottom: 20px;
+}
+
+.container__banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container__section {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin-bottom: 20px;
+}
+
+.section__header {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.header__title {
+    margin: 0;
+    padding: 0;
+    color: #822a7c;
+    margin-bottom: .15rem !important;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1rem;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.section__form {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.form__inputs {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inputs__input {
+    position: relative;
+    width: 45%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+label img {
+    vertical-align: middle;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'] {
+    background-color: #e9ecef;
+    opacity: 1;
+    height: calc(1.5em + .5rem + 2px);
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.form__group {}
+
+.group__title {
+    font-weight: bold;
+    color: #48818c;
+}
+
+fieldset {
+    border: none;
+}
+
+.form-check-label {
+    vertical-align: middle;
+}
+
+.custom-radio,
+.custom-checkbox {
+    margin-left: 10px;
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: rgba(0, 0, 0, .1);
+    height: 1px;
+    margin-top: 0.7rem !important;
+    margin-bottom: 0.7rem !important;
+}
+
+.form__button {
+    text-align: left;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+input[type='submit'] {
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 11px 24px;
+    font-size: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #822a7c !important;
+    border-color: #822a7c !important;
+    border: 1px solid #822a7c !important;
+    border-radius: 27px !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input[type='submit']:hover {
+    color: #822a7c !important;
+    background-color: #ffffff !important;
+    border-color: #822a7c !important;
+    border: 1px solid #822a7c !important;
+    border-radius: 27px !important;
+}
+
+.wrapper__footer {
+    background: url('https://s3-eu-west-1.amazonaws.com/salesmanagoimg/82kb1c08xo1bwskr/1qa8jfjvlsd4d6p3/gusa73siliaj4663.png') repeat-x;
+    background-color: #fafafa;
+    padding-bottom: 1rem!important;
+    padding-top: 1rem!important;
+    margin-top: auto!important;
+}
+
+.footer__container {
+    margin: 0 auto;
+    width: auto;
+    max-width: 1080px;
+}
+
+.text-muted {
+    color: #6c757d!important;
+}
+
+#unsubscribe_warning {
+    display: none;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    margin-top: 20px;
+}
+
+.alert-danger hr {
+    background-color: #f5c6cb;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.h5,
+h5 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0;
+    line-height: 1.3rem;
+}
+
+.border:checked~img {
+    outline: 1px dashed #48818c;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+[type=radio],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+[type=radio]:hover+img {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+}
+
+[type=checkbox]:hover+img {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper__banner img {
+        height: auto;
+        max-width: 100%;
+    }
+    .inputs__input {
+        width: 100%;
+    }
+    .form__inputs {
+        flex-direction: column;
+    }
+    .section__form {
+        padding: 1rem 0.2rem;
+    }
+}
